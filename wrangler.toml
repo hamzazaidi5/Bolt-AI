@@ -1,6 +1,23 @@
-#:schema node_modules/wrangler/config-schema.json
 name = "bolt"
 compatibility_flags = ["nodejs_compat"]
 compatibility_date = "2024-07-01"
 pages_build_output_dir = "./build/client"
 send_metrics = false
+
+# Add these new sections
+[build]
+command = "npm run build"
+upload.dir = "./build/client"
+node_compat = true  # Explicit Node.js compatibility
+
+[functions]
+directory = "./functions"
+node_compat = true  # Enable Node.js mode for Functions
+
+# Add ESBuild configuration to handle Node.js modules
+[esbuild]
+format = "esm"
+target = "es2022"
+loader = ".js=jsx"
+tsconfig = "./tsconfig.json"
+banner = { js = "import { createRequire } from 'module'; const require = createRequire(import.meta.url);" }
