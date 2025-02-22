@@ -10,12 +10,12 @@
     }
   </style>
   
-  <!-- Orange square with rounded corners -->
-  <rect x="2" y="2" width="28" height="28" rx="4" stroke="#FF7F50" stroke-width="2" fill="white"/>
+  <!-- Purple square with rounded corners -->
+  <rect x="2" y="2" width="28" height="28" rx="4" stroke="#A855F7" stroke-width="2" fill="white"/>
   
   <!-- > symbol with blink animation -->
-  <text x="8" y="20" font-family="monospace" font-size="16" fill="#FF7F50" class="blink">&gt;</text>
+  <text x="8" y="20" font-family="monospace" font-size="16" fill="#A855F7" class="blink">&gt;</text>
   
   <!-- Horizontal line (underscore position) -->
-  <rect x="16" y="22" width="8" height="2" fill="#FF7F50"/>
+  <rect x="16" y="22" width="8" height="2" fill="#A855F7"/>
 </svg>
