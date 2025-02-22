@@ -18,7 +18,7 @@ import 'virtual:uno.css';
 export const links: LinksFunction = () => [
   {
     rel: 'icon',
-    href: '/logo-dark-styled.svg',
+    href: '/logo-dark-style.svg',
     type: 'image/svg+xml',
   },
   { rel: 'stylesheet', href: reactToastifyStyles },
