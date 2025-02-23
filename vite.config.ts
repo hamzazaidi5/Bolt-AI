@@ -93,6 +93,9 @@ export default defineConfig((config) => {
     build: {
       target: 'esnext',
     },
+    server: {
+      allowedHosts: ['codequik.net'],
+    },
     plugins: [
       nodePolyfills({
         include: ['path', 'buffer', 'process'],
