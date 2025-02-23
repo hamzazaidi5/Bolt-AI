@@ -19,7 +19,7 @@ export function Header() {
         <div className="i-ph:sidebar-simple-duotone text-xl" />
         <a href="/" className="text-2xl font-bold text-accent flex items-center font-[Plus Jakarta Sans]">
           {/* <span className="i-bolt:logo-text?mask w-[46px] inline-block" /> */}
-          <img src="/logo-dark-style.svg" alt="logo" className="w-[90px] inline-block dark:hidden" />
+          <img src="/logo-dark-style.svg" alt="logo" className="w-[50px] h-[30px] inline-block dark:hidden" />
           <img src="/logo-dark-style.svg" alt="logo" className="w-[50px] h-[30px] inline-block hidden dark:block" />
           <b>CodeQuik</b>
         </a>
