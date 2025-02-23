@@ -129,6 +129,9 @@ export default defineConfig({
               4: 'var(--bolt-elements-bg-depth-4)',
             },
           },
+          fontFamily: {
+            sans: '"Plus Jakarta Sans", sans-serif',
+          },
           textPrimary: 'var(--bolt-elements-textPrimary)',
           textSecondary: 'var(--bolt-elements-textSecondary)',
           textTertiary: 'var(--bolt-elements-textTertiary)',
