@@ -508,7 +508,7 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
                         minHeight: TEXTAREA_MIN_HEIGHT,
                         maxHeight: TEXTAREA_MAX_HEIGHT,
                       }}
-                      placeholder="How can CodeQuik help you today?"
+                      placeholder="What do you want to build?"
                       translate="no"
                     />
                     <ClientOnly>
